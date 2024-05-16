@@ -10,7 +10,7 @@ spec:
   source:
     repoURL: https://github.com/gnomesoftuk/nginx-demo.git
     targetRevision: HEAD
-    path: ./infra/kustomize/
+    path: ./infra/kustomize/overlays/default
     kustomize: {}
     directory:
       recurse: true
