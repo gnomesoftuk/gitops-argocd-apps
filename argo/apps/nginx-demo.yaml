@@ -10,7 +10,8 @@ spec:
   source:
     repoURL: https://github.com/gnomesoftuk/nginx-demo.git
     targetRevision: HEAD
-    path: ./infra/k8s/
+    path: ./infra/kustomize/
+    kustomize: {}
     directory:
       recurse: true
   destination:
