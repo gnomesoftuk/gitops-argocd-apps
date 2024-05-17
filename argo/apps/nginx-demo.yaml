@@ -17,6 +17,7 @@ spec:
     namespace: demo
   syncPolicy:
     syncOptions:
+      - PruneLast=true
     automated:
       prune: true
       selfHeal: true
