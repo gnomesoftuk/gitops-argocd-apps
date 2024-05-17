@@ -8,9 +8,9 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: https://github.com/gnomesoftuk/nginx-demo.git
+    repoURL: https://github.com/gnomesoftuk/gitops-demo-apps.git
     targetRevision: HEAD
-    path: ./infra/kustomize/overlays/default
+    path: ./infra/nginx-demo/kustomize/overlays/default
     kustomize: {}
   destination:
     server: https://kubernetes.default.svc
